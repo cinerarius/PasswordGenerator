@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="bg-slate-500">
+    <h1 class="flex text-3xl font-bold underline justify-center">PASSWORD GENERATOR</h1>
+    <section>
+        <div class="flex justify-center my-10">
+            <input id="passwordLength" class="flex outline outline-1 justify-center mx-2 p-2" type="text"
+                placeholder="Your Password Length">
+            <button class="bg-blue-700 justify-center p-2 border border-black" onclick="generatePassword()">Generate
+                Password</button>
+        </div>
+        <h1 class="bg-white flex mx-44 my-10 p-2 outline outline-1 justify-center" type="text">Your Password</h1>
+        <h1 id="password" class="bg-white flex mx-44 my-10 p-5 outline outline-1 justify-center" type="text"></h1>
+        <script src="./script.js"></script>
+    </section>
+</body>
+
+</html>
